@@ -1,0 +1,244 @@
+/*
+Project Name: Relaxr blog
+Client: Relaxr
+Author: Beth Rabkin
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+}
+
+.alignleft {
+  float: left;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1 {
+  margin-left: 100px;
+  margin-top:35px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 4px;
+}
+
+h6{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+}
+h4 {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+   margin-bottom: 9px;
+   font-style: 700;
+   color: #a35050;
+
+}
+h5 {
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  padding: 15px s;
+}
+
+h3::first-letter { 
+    font-size: 240%;
+    float: left;
+    padding: 10px;
+}
+
+header {
+background-color: #212935;
+height: 120px;
+width: 100%;
+}
+
+li {
+  display: inline;
+  width: 400px;
+  padding: 0 40px 0 40px;
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #b2a99b;
+}
+
+a:hover {
+  color: #a35050;
+  text-decoration: none;
+}
+
+nav {
+  margin-right: 100px;
+  padding-top: 40px;
+}
+
+em {
+font-style: italic;
+}
+
+hr {
+border-bottom: 2px solid black;
+}
+
+.articleImage { 
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.logo {
+color: #a35050;
+text-align: left;
+font-family: 'Muli', sans-serif;
+font-size: 30px;
+letter-spacing: 2px;
+}
+
+.logoBottom {
+ text-align: center;
+ padding-top: 90px;
+ padding-bottom: 30px;
+}
+
+.readMore {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: right;
+  font-weight: bold;
+}
+.row {  
+margin: 0px 30px 0px 30px;
+padding-top: 70px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+#socialMedia {
+  margin: 0 auto;
+  width: 90px;
+}
+
+#button1 {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #b2a99b;
+  color: white;
+  padding: 15px 3px;
+  font-size: 16px;
+  width: 10%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 1px;
+  border-radius:2px;
+}
+
+#containerBody {
+  background-color: #e2e2e2;
+  width: 100%;
+  height: 1700px;
+}
+
+#articles {
+  width: 900px;
+  margin-left: 100px;
+  margin-top: 80px;
+  height: 1500px;
+}
+
+#sidebar {
+  width: 240px;
+  margin-right: 100px;
+  margin-top: 80px;
+}
+
+#box1 {
+width: 900px;
+}
+
+#box2 {
+  width: 900px;
+}
+
+#catagories {
+  width: 220px;
+}
+
+#about {
+  width: 240px;
+  margin-top: 20px;
+}
+
+#ad {
+  width: 240px;
+  margin-top: 20px;
+}
+
+#colorBar {
+  background-color: #a35050;
+  height: 200px;
+  padding-top: 75px;
+}
+
+#footer1 {
+  color: white;
+  background-color: #212935;
+  height: 450px;
+  font-style: normal;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
