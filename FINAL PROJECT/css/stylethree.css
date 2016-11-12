@@ -1,0 +1,226 @@
+#logo {
+  padding-top: 10px;
+  padding: 40px;
+  position: fixed;
+}
+
+.navbar-default {
+border: none;
+
+}
+
+h1 {
+	color: #817f7f;
+  font-family: 'Brandon Grotesque';
+  letter-spacing: 1px;
+  text-transform: none;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  text-align: justify;
+
+}
+
+h2 {
+	color: #817f7f;
+  font-family: 'Brandon Grotesque';
+  letter-spacing: 1px;
+  text-transform: none;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h3 {
+  color: #817f7f;
+  font-family: 'Brandon Grotesque';
+  letter-spacing: 0px;
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+h4 {
+  color: #a5afa9;
+  font-family: 'Brandon Grotesque';
+  letter-spacing: 1px;
+  text-transform: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: justify;
+  
+
+}
+.nav {
+      padding: 56px 0px 0px 0px;
+      background-color: #a5afa9;
+      height: 130px;
+      width: 100%;
+      font-family: 'Lato', sans-serif;
+      text-align: left;
+    border: none;
+}
+.row a {
+  color: white;
+  font-family: 'Brandon Grotesque';
+  letter-spacing: 1px;
+  text-transform: none;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+
+}
+
+.row a:hover {
+  color: #b77272;
+  text-decoration: none;
+    }
+
+.row a:active {
+  color: #817f7f;
+  text-decoration: none;
+  }
+
+a:hover {
+	text-decoration:none;
+
+}
+  #container {
+    height: 600px;
+    background-color: #f0eeef;
+}
+
+#footerColor {
+	background: url(../images/pinkside.png) no-repeat bottom right fixed; 
+	height: 80px;
+}
+
+
+h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #f0eeef;
+
+}
+span {
+  letter-spacing: 1px;
+  margin-left: 15px;
+  color: #5b5b5a;
+
+}
+
+#forms {
+	background-color: #817f7f;
+	height: 700px;
+}
+form {
+  width: 40%;
+  margin: 0 auto;
+
+}
+
+#contactme {
+padding-top: 27px;
+padding-bottom: 15px;
+font-family: 'Brandon Grotesque';
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: #c2c2c2;
+  text-align: center;
+}
+
+#instructions {
+font-family: 'Brandon Grotesque';
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #c2c2c2;
+  width: 40%;
+  margin: 0 auto;
+  text-align: left;
+
+}
+
+input, textarea {
+  float: left;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  background-color: #f0eeef;
+  
+
+  &[type=submit] {
+    background: pink;
+    color: #fff;
+    width: auto;
+    float: right;
+  }
+
+  &::placeholder {
+    color: green;
+  }
+
+  &.error {
+    background: red;
+    color: #fff;
+    &::placeholder {
+      color: yellow;
+    }
+  }
+}
+textarea {
+  height:270px;
+}
+
+.button{
+    color: #c2c2c2;
+    background-color: #817f7f;
+    letter-spacing: 3px;
+    border: none;
+    border: 2px solid #D9D7D8;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-weight: 500;
+    padding: 10px;
+    width: 15%;
+  
+}
+
+
+.button:hover{
+	background-color: #f0eeef;
+	color: #817f7f;
+}
+.captcha {
+  float:left;
+  input {
+    float: right;
+  }
+  input[name=question] {
+    width: 4rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: right;
+    padding-right: 0;
+  }
+  [name=captcha] {
+    width: 5rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-left: 0.5rem;
+    &::placeholder {
+      text-align: center;
+    }
+  }
+}
